@@ -50,7 +50,6 @@
                 <small>Follow us:</small>
                 <a class="text-white-50 ms-3" href="https://www.facebook.com/SaintMartinCSA" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a class="text-white-50 ms-3" href="https://www.youtube.com/channel/UCGz-9Kfu501Jzn0SbbPDofg" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
                 <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
             </div>
         </div>
@@ -70,22 +69,7 @@
                     <a href="/partners" class="nav-item nav-link active">Our Partners</a>
                     
                    
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Inspiration</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">St. Martin of Tours</a>
-                            <a href="donate.html" class="dropdown-item">The Spirit of St. Martin CSA</a>
-                            <a href="team.html" class="dropdown-item">Weekly Sharing</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Media</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Downloads</a>
-                            <a href="donate.html" class="dropdown-item">Newsletters</a>
-                            <a href="team.html" class="dropdown-item">Publications</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </nav>
@@ -96,10 +80,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Donations & Contacts</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <p class="text text-white animated slideInDown">We always appreciate hearing from friends.</p>
-                <p class="text text-white animated slideInDown">If you have any questions or you wish to learn more about our organisation please don’t hesitate to contact us.</p>
+            <h1 class="display-4 text-white animated slideInDown mb-4">Contacts & Donations</h1>
+            <nav aria-label="breadcrumb animated slideInDown"><p><i class="fa fa-map-marker-alt me-3"></i>P.O. Box 2098-20300 Nyahururu, Kenya </p>
+                <p><i class="fa fa-phone-alt me-3"></i>+254 (0)720 853 412</p>
+                <p><i class="fa fa-phone-alt me-3"></i>+254 (0)734 992 272</p>
+                <p><i class="fa fa-envelope me-3"></i> info@saintmartin-kenya.org</p>
             </nav>
         </div>
     </div>
@@ -166,49 +151,26 @@
         </div>
     </div>
     <!-- Donate End --> 
-    <!--newsletter Start -->
-    <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+
+     <!--newsletter Start -->
+     <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Donate Now</div>
-                    <h1 class="display-6 mb-5">Thanks For The Results Achieved With You</h1>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">BADILISHA</div>
+                    <h1 class="display-6 text-white mb-5">Stories Of Addiction.</h1>
+                    <p class="text-white-50 mb-0">St. Martin CSA is a charity organisation that works with the local communities for the benefit of vulnerable people in their midst. We particularly support children in need and people with addiction and mental health issues as well as facilitate a conciliatory and peaceful​ living together. St. Martin CSA is based in Nyahururu, Kenya.</p>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="h-100 bg-white p-5">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12">
-                                    <div>Fill to subscribe to our newsletter:</div>
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-light border-0" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control bg-light border-0" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <button class="btn btn-primary px-5" style="height: 60px;">
-                                       Subscribe
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-bell"></i>
-                                        </div>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="h-100">
+                        <iframe width="650" height="383" src="https://www.youtube.com/embed/PKGnAphPl2g" title="Badilisha - Stories of addiction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- newsletter End -->
+   
    
    <!-- Footer Start -->
    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -218,10 +180,8 @@
                 <h1 class="fw-bold text-primary mb-4">St. Martin<span class="text-white">CSA</span></h1>
                 <p>Only Through Community</p>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-square me-1" href="https://www.facebook.com/SaintMartinCSA" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square me-1" href="https://www.youtube.com/channel/UCGz-9Kfu501Jzn0SbbPDofg" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -233,8 +193,8 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="/about">About Us</a>
+                <a class="btn btn-link" href="/contact">Contact Us</a>
                 <a class="btn btn-link" href="">Our Services</a>
                 <a class="btn btn-link" href="">Terms & Condition</a>
                 <a class="btn btn-link" href="">Support</a>

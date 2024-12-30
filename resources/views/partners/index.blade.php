@@ -50,8 +50,7 @@
                 <small>Follow us:</small>
                 <a class="text-white-50 ms-3" href="https://www.facebook.com/SaintMartinCSA" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a class="text-white-50 ms-3" href="https://www.youtube.com/channel/UCGz-9Kfu501Jzn0SbbPDofg" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-white-50 ms-3" href="https://www.instagram.com/saintmartincsa/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
@@ -68,14 +67,6 @@
                     <a href="/about" class="nav-item nav-link active">About Us</a>
                     <a href="/programme" class="nav-item nav-link active">Our Programmes</a>
                     <a href="/contact" class="nav-item nav-link active">Contact Us</a>
-                </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="/contact">
-                        Make a Donation
-                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </a>
                 </div>
             </div>
         </nav>

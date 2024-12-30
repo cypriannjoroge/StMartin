@@ -69,14 +69,7 @@
                 <a href="/partners" class="nav-item nav-link active">Our Partners</a>
                 <a href="/contact" class="nav-item nav-link active">Contact Us</a>
             </div>
-            <div class="d-none d-lg-flex ms-2">
-                <a class="btn btn-outline-primary py-2 px-3" href="/contact">
-                    Make a Donation
-                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </a>
-            </div>
+           
         </div>
     </nav>
 </div>
@@ -90,8 +83,8 @@
             <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">About Us</li>
+                    {{-- <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">About Us</li> --}}
                 </ol>
             </nav>
         </div>
@@ -119,7 +112,7 @@
                         </div>
                         <span class="text-primary">Mission</span>
                         <p class="mb-5">To strengthen community capacity to care for and empower vulnerable people in mutually transformative relationships.</p>
-                        <a class="btn btn-primary py-2 px-3 me-3" href="">
+                        <a class="btn btn-primary py-2 px-3 me-3" href="/news">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -152,7 +145,7 @@
                         <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
                         <h4 class="mb-3">Aproach</h4>
                         <p class="mb-4">St. Martin CSA has a particular way of dealing with the problems in the communities. This approach has developed over time and is continuously undergoing changes, incorporating insights from everyday experiences. Even those involved in St. Martin CSA do not always find it easy to grasp and internalise this approach. They need time to make it their own. </p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/news">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -165,7 +158,7 @@
                         <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
                         <h4 class="mb-3">Core Values</h4>
                         <p class="mb-4">St. Martin CSA emphasizes solidarity, helping others as we've been helped; simplicity, living close to those we serve; voluntarism, using our talents for those in need; integrity, ensuring resources benefit the vulnerable; professionalism, combining motivation with skill; and ecumenism, uniting across faiths to focus on shared service to the poor.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/news">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -178,7 +171,7 @@
                         <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
                         <h4 class="mb-3">History</h4>
                         <p class="mb-4">In 1997, a priest in Nyahururu parish, while blessing a rural home, discovered Thomas, a neglected man with disabilities. The encounter made the priest question how even animals were blessed, yet this vulnerable human being was overlooked. This moment led him to reflect on the Christian duty to care for the marginalized in society.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
+                        <a class="btn btn-outline-primary px-3" href="/news#history">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>

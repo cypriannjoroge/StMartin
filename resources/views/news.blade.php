@@ -63,17 +63,17 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="/" class="nav-item nav-link active">Home</a>
+                    <a href="/about" class="nav-item nav-link active">About Us</a>
+                    <a href="/programme" class="nav-item nav-link active">Our Programmes</a>
+                    <a href="/partners" class="nav-item nav-link active">Our Partners</a>
+                    <a href="/contact" class="nav-item nav-link active">Contact Us</a>
+                   
+                    
+                </div>
            
-            {{-- <div class="d-none d-lg-flex ms-2">
-                <a class="btn btn-outline-primary py-2 px-3" href="/contact">
-                    Make a Donation
-                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </a>
-            </div> --}}
-        </div>
     </nav>
 </div>
 <!-- Navbar End -->
@@ -85,102 +85,33 @@
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-4">News</h1>
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
+                {{-- <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">News</li>
-                </ol>
+                </ol> --}}
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Vission & Mission</div>
-                        <h1 class="display-6 mb-5">Only Through Community</h1>
-                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <span class="text-primary">VISION</span>
-                            <p class="text-dark mb-2">A just society in which communities uphold the dignity of vulnerable people, through the spirit of love and solidarity.</p>
-                        </div>
-                        <span class="text-primary">Mission</span>
-                        <p class="mb-5">To strengthen community capacity to care for and empower vulnerable people in mutually transformative relationships.</p>
-                        <a class="btn btn-primary py-2 px-3 me-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                        
-                    </div>
+<!--newsletter Start -->
+<div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div id="history" class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">25 YEARS OF HISTORY</div>
+                <h1 class="display-6 text-white mb-5">Celebrating 25 years of Solidarity, Transformation, and Impact.</h1>
+                <p  class="text-white-50 mb-0">This mini documentary highlights St. Martin CSA's journey since it's inception till 2024 when the organization celebrated its 25th anniversary.</p>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="h-100">
+                    <iframe width="650" height="383" src="https://www.youtube.com/embed/4KWsrfK6NRI" title="Celebrating 25 years of Solidarity, Transformation, and Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                <h1 class="display-6 mb-5">Learn More about us</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                        <h4 class="mb-3">Aproach</h4>
-                        <p class="mb-4">St. Martin CSA has a particular way of dealing with the problems in the communities. This approach has developed over time and is continuously undergoing changes, incorporating insights from everyday experiences. Even those involved in St. Martin CSA do not always find it easy to grasp and internalise this approach. They need time to make it their own. </p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3">Core Values</h4>
-                        <p class="mb-4">St. Martin CSA emphasizes solidarity, helping others as we've been helped; simplicity, living close to those we serve; voluntarism, using our talents for those in need; integrity, ensuring resources benefit the vulnerable; professionalism, combining motivation with skill; and ecumenism, uniting across faiths to focus on shared service to the poor.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h4 class="mb-3">History</h4>
-                        <p class="mb-4">In 1997, a priest in Nyahururu parish, while blessing a rural home, discovered Thomas, a neglected man with disabilities. The encounter made the priest question how even animals were blessed, yet this vulnerable human being was overlooked. This moment led him to reflect on the Christian duty to care for the marginalized in society.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
+</div>
+<!-- newsletter End -->
 
 
 
@@ -192,10 +123,8 @@
                     <h1 class="fw-bold text-primary mb-4">St. Martin<span class="text-white">CSA</span></h1>
                     <p>Only Through Community</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square me-1" href="https://www.facebook.com/SaintMartinCSA" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square me-1" href="https://www.youtube.com/channel/UCGz-9Kfu501Jzn0SbbPDofg" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -207,8 +136,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="/about">About Us</a>
+                    <a class="btn btn-link" href="/contact">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
